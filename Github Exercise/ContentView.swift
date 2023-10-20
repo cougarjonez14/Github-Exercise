@@ -10,13 +10,13 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "2.circle")
+            Image(systemName: "3.circle")
                 .resizable()
                 .scaledToFit()
-            Text("V 2.0")
+            Text("V 3.0")
                 .font(.largeTitle)
                 .fontWeight(.black)
-            Rectangle()
+            Circle()
         }
         .padding()
         .foregroundColor(.secondary)
